@@ -1,13 +1,13 @@
 # Dossier Homebrew Tap
 
-Homebrew formulae for [Dossier](https://github.com/mrbagels/dossier), a CLI
+Homebrew formulae for [Dossier](https://github.com/kylebegeman/dossier), a CLI
 for generating self-contained, agent-readable HTML dossiers from structured JSON
 models.
 
 ## Install
 
 ```bash
-brew tap mrbagels/tap
+brew tap kylebegeman/tap
 brew install dossier
 dossier --help
 ```
@@ -15,7 +15,7 @@ dossier --help
 You can also install without tapping first:
 
 ```bash
-brew install mrbagels/tap/dossier
+brew install kylebegeman/tap/dossier
 ```
 
 ## Upgrade
@@ -28,7 +28,7 @@ brew upgrade dossier
 ## Brewfile
 
 ```ruby
-tap "mrbagels/tap"
+tap "kylebegeman/tap"
 brew "dossier"
 ```
 
