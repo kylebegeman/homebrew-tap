@@ -1,18 +1,42 @@
-# Mrbagels Dossier
+# Dossier Homebrew Tap
 
-## How do I install these formulae?
+Homebrew formulae for [Dossier](https://github.com/mrbagels/dossier), a CLI
+for generating self-contained, agent-readable HTML dossiers from structured JSON
+models.
 
-`brew install mrbagels/dossier/<formula>`
+## Install
 
-Or `brew tap mrbagels/dossier` and then `brew install <formula>`.
+```bash
+brew tap mrbagels/dossier
+brew install dossier
+dossier --help
+```
 
-Or, in a `brew bundle` `Brewfile`:
+You can also install without tapping first:
+
+```bash
+brew install mrbagels/dossier/dossier
+```
+
+## Upgrade
+
+```bash
+brew update
+brew upgrade dossier
+```
+
+## Brewfile
 
 ```ruby
 tap "mrbagels/dossier"
-brew "<formula>"
+brew "dossier"
 ```
 
-## Documentation
+## Formula
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+| Formula | Description |
+|---|---|
+| `dossier` | Generate self-contained, agent-readable HTML dossiers. |
+
+The formula builds from the tagged GitHub source release and installs the
+`dossier` executable with Homebrew's Node packaging helper.
