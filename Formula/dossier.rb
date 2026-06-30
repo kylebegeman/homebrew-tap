@@ -1,8 +1,8 @@
 class Dossier < Formula
   desc "Generate self-contained, agent-readable HTML dossiers"
-  homepage "https://github.com/kylebegeman/dossier"
-  url "https://github.com/kylebegeman/dossier/archive/refs/tags/v0.6.4.tar.gz"
-  sha256 "df2b12b0ed0a9325d8cc9149a7b2b8201662cece298a418bfdcac69b36920bae"
+  homepage "https://github.com/mrbagels/dossier"
+  url "https://github.com/mrbagels/dossier/archive/refs/tags/v0.6.5.tar.gz"
+  sha256 "6f637f9f3b91963e462e5b4d7088c366b1e2a421a4cda2eeb7df7924cb1b606b"
   license "MIT"
 
   depends_on "node"
