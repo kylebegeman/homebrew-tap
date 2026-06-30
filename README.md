@@ -7,7 +7,7 @@ models.
 ## Install
 
 ```bash
-brew tap mrbagels/dossier
+brew tap mrbagels/tap
 brew install dossier
 dossier --help
 ```
@@ -15,7 +15,7 @@ dossier --help
 You can also install without tapping first:
 
 ```bash
-brew install mrbagels/dossier/dossier
+brew install mrbagels/tap/dossier
 ```
 
 ## Upgrade
@@ -28,7 +28,7 @@ brew upgrade dossier
 ## Brewfile
 
 ```ruby
-tap "mrbagels/dossier"
+tap "mrbagels/tap"
 brew "dossier"
 ```
 
