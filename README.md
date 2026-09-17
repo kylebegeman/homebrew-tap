@@ -40,7 +40,8 @@ brew "dossier"
 | Formula | Description |
 |---|---|
 | `ledger` | Repo-native change memory for humans and coding agents. |
-| `dossier` | Generate self-contained, agent-readable HTML dossiers. |
+| `dossier` | Turn one JSON model into one self-contained HTML dossier. |
 
-The formulae install Node-based CLI tools with Homebrew's Node packaging helper
-or the package manager's published release artifact.
+`ledger` installs a Node-based CLI with Homebrew's Node packaging helper.
+`dossier` installs the prebuilt binary from its GitHub release and needs no
+Node.
